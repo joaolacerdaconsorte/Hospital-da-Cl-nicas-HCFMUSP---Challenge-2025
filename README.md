@@ -4,26 +4,23 @@ Este repositório contém o projeto desenvolvido para o Challenge 2025 do Hospit
 
 ## Descrição
 
-O projeto visa desenvolver soluções inovadoras para os desafios enfrentados pelo Hospital das Clínicas HCFMUSP.
+O projeto é um sistema de agendamento de consultas médicas desenvolvido em Python, utilizando uma interface gráfica moderna e intuitiva. O sistema permite o agendamento de consultas, visualização de histórico, gerenciamento de médicos e especialidades, além de recursos de acessibilidade e exportação de dados.
 
 ## Tecnologias Utilizadas
 
 - Python
-- FastAPI
-- SQLAlchemy
-- PostgreSQL
+- CustomTkinter (Interface Gráfica)
+- pyttsx3 (Síntese de Voz)
+- FPDF (Geração de PDFs)
 
 ## Estrutura do Projeto
 
 ```
 .
 ├── README.md
+├── main.py
 ├── requirements.txt
-└── src/
-    ├── main.py
-    ├── models/
-    ├── schemas/
-    └── services/
+└── Documentação e Requerimentos.pdf
 ```
 
 ## Como Executar
@@ -35,8 +32,19 @@ O projeto visa desenvolver soluções inovadoras para os desafios enfrentados pe
    ```
 3. Execute o projeto:
    ```bash
-   python src/main.py
+   python main.py
    ```
+
+## Funcionalidades
+
+- Sistema de login
+- Agendamento de consultas
+- Visualização de histórico
+- Gerenciamento de médicos e especialidades
+- Configurações de tema (claro/escuro)
+- Recursos de acessibilidade (síntese de voz)
+- Exportação de histórico em PDF
+- Sistema de notificações
 
 ## Contribuição
 
